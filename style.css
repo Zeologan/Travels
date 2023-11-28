@@ -342,6 +342,11 @@ line-height: 1.2;
     top: 6px;
     right: 6px;
     cursor: pointer;
+    transition: 0.25s;
+}
+.newsletter form input:last-child:hover{
+    filter: brightness(100%) hue-rotate(0deg) ;
+    transform: scale(1.04);
 }
 
 #contact{
